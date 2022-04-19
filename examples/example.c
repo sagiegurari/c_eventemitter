@@ -39,7 +39,7 @@ int main()
   // the callback will be called several times
   // The last param is a context that the specific listener will get each time its triggered
   // Each add function returns a unique ID which can be used to remove the listener
-  int listener_id = eventemitter_add_listener(event_emitter, EVENT_START, on_start, "some context for start 1");
+  unsigned int listener_id = eventemitter_add_listener(event_emitter, EVENT_START, on_start, "some context for start 1");
 
   eventemitter_add_listener(event_emitter, EVENT_START, on_start, "some context for start 2");
   eventemitter_on(event_emitter, EVENT_START, on_start, "some context for shorthand start"); // shorthand version
