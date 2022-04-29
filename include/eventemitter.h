@@ -9,7 +9,7 @@ struct EventEmitter;
  * Creates and returns a new event emitter.
  * Once no longer needed, it must be released.
  */
-struct EventEmitter *eventemitter_new();
+struct EventEmitter *eventemitter_new(void);
 
 /**
  * Frees the memory of the provided emitter.
