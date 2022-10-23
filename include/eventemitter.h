@@ -1,5 +1,5 @@
-#ifndef __EVENTEMITTER_H__
-#define __EVENTEMITTER_H__
+#ifndef EVENTEMITTER_H
+#define EVENTEMITTER_H
 
 #include <stdbool.h>
 
