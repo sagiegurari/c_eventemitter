@@ -35,7 +35,7 @@ static struct EventEmitterEventListeners *_eventemitter_get_listeners_for_event_
 static unsigned int _eventemitter_add_listener(struct EventEmitter *, int, void (*callback)(void *, void *), void *, bool, bool);
 static unsigned int _eventemitter_add_unhandled_listener(struct EventEmitter *, void (*callback)(int, void *, void *), void *, bool);
 
-struct EventEmitter *eventemitter_new()
+struct EventEmitter *eventemitter_new(void)
 {
   struct EventEmitter *event_emitter = malloc(sizeof(struct EventEmitter));
 
