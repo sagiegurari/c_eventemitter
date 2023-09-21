@@ -19,6 +19,7 @@ This library enables to register event listeners and emit events.
 <a name="usage"></a>
 ## Usage
 
+<!-- example source start -->
 ```c
 #include "eventemitter.h"
 #include <stdio.h>
@@ -100,6 +101,7 @@ int main()
   return(0);
 } /* main */
 ```
+<!-- example source end -->
 
 ## Contributing
 See [contributing guide](.github/CONTRIBUTING.md)
